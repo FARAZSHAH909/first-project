@@ -1,77 +1,204 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="generator" content="IDURAR" />
-    <link rel="icon" type="image/x-icon" href="./src/favicon.ico" />
-    <title>first webpage</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <meta
-      name="description"
-      content="IDURAR ERP CRM Open Source based on node.js react.js Antd Redux"
-    />
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Grey+Qo&family=Merienda&family=Norican&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <header>
-      <nav>
-            <div class="logo">
-                <img src="img/logo/logo-dark.png" alt="">
-            </div>
-          <div>
-            <ul>
-                <li>Home </li>
-                <li>About us</li>
-                <li>Contact us</li>
-                <li>Blog</li>
-                <li>Block</li>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </ul>
-          </div>
-          <button>SIGNUP</button>
-        </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content="IDURAR" />
+  <link rel="icon" type="image/x-icon" href="./src/favicon.ico" />
+  <title>first webpage</title>
+  <link rel="stylesheet" href="style.css">
 
-    <section class="hero">
-     
-      <div class="content">
-        <h2>Crafting project specific solutions with expertise.</h2>
-        <p>We're a company that focuses on establishing long-term relationships with customers.</p>
-        <button>Explore Now</button>
-        <button>Contact Us</button>
+  <meta name="description" content="IDURAR ERP CRM Open Source based on node.js react.js Antd Redux" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Liter&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fugaz+One&family=Grey+Qo&family=Merienda&family=Norican&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="img/logo/logo-dark.png" alt="">
       </div>
-      <div class="hero-img">
-        <img src="img/banner/co3.png" alt="">
+      <div>
+        <ul>
+          <li>Home </li>
+          <li>About us</li>
+          <li>Contact us</li>
+          <li>Blog</li>
+          <li>Block</li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </ul>
       </div>
-    </section>
+      <button>SIGNUP</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <div class="content">
+      <h2>Crafting project specific solutions with expertise.</h2>
+      <p>We're a company that focuses on establishing long-term relationships with customers.</p>
+      <button>Explore Now</button>
+      <button>Contact Us</button>
+    </div>
+    <div class="hero-img">
+      <img src="img/banner/co3.png" alt="">
+    </div>
+  </section>
+
+
+  <section class='band-icon'>
+    <div class="first-show">
+      <h1>Trusted by over <br> 25000+ clients</h1>
+      <p>We bring solutions to make life easier for our customers.
+      </p>
+    </div>
+    <div class="second-show">
+      <div><img src="img/icon-band/c10.png" alt=""></div>
+      <div><img src="img/icon-band/c2.png" alt=""></div>
+      <div> <img src="img/icon-band/c3.png" alt=""></div>
+      <div> <img src="img/icon-band/c4.png" alt=""></div>
+      <div><img src="img/icon-band/c5.png" alt=""></div>
+      <div> <img src="img/icon-band/c6.png" alt=""></div>
+      <div><img src="img/icon-band/c7.png" alt=""></div>
+      <div><img src="img/icon-band/c8.png" alt=""></div>
+    </div>
+  </section>
+
+
+  <section class="about">
+    <div class="about-img">
+      <img src="img/icon-band/about10.jpg" alt="">
+    </div>
+    <div class="about-contant">
+      <h1>Who Are We?</h1>
+      <p>We are a digital and branding company that believes in the power of creative strategy and along with great
+        design.</p>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus
+        ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+    </div>
+  </section>
+
+
+  <section class="about-two">
+    <div class="about-contant">
+      <h1>Who Are We?</h1>
+      <h5>We are a digital and branding company that believes in the power of creative strategy and along with great
+        design.</h5>
+      <div class="about-choose-content">
+        <div>
+          <h1>Marketing</h1>
+          <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+        </div>
+
+
+        <div>
+          <h1>Strategy</h1>
+          <p>Vivamus sagittis lacus augue laoreet vel.</p>
+        </div>
+
+        <div>
+          <h1>Development</h1>
+          <p>Cras mattis consectetur purus sit amet.</p>
+        </div>
+
+        <div>
+          <h1>Data Analysis</h1>
+          <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-img">
+      <img src="img/icon-band/about11.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="testimonial-card">
+    <img src="img/icon-band/co2.png" alt="User Image" class="user-image">
+    <div class="testimonial-content">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">
+            “Fusce dapibus tellus ac cursus commodo, tortor mauris condimentum nibh ut fermentum massa, justo sit amet vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”
+        </p>
+        <h3 class="user-name">Coriss Ambady</h3>
+        <p class="user-role">FINANCIAL ANALYST</p>
+    </div>
+</div>
+
+
  
-    
+     
+    <footer class="section-p1">
+      <div class="col1">
+        <h2>Join the Community</h2>
+        <p>Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p>
+        <button class="join-btn">Join Us</button>
+    </div>
+      <div class="col">
+          <img class="logo" src="img/logo.png" alt="">
+          <h4>Contact</h4>
+          <p><strong>Address:</strong> Quadabad pakistan karachi Beecham towm</p>
+          <p><strong>Phone:</strong> +01 2222 365/ (03)000 22 145558</p>
+          <p><strong>hours:</strong> +01  10.00 -18.00, mon - sat</p>.
+          <div class="follow">
+              <h4>Follow Us</h4>
+              <div class="icon">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+              </div>
+          </div>
+      </div>
 
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+      <div class="col">
+          <h4>About US</h4>
+      <a href="#">About Us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Terms & Conditions</a>
+      </div>
+
+      <div class="col">
+          <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">Track My Order</a>
+      <a href="#">View Cart</a>
+      <a href="#">View Wishlist</a>
+      <a href="#">Helps</a>
+      </div>
+
+      <div class="copyright">
+          <p>© 2024 Sandbox. All rights reserved.</p>
+      </div>
+     
+  </footer>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
