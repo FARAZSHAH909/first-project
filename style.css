@@ -83,7 +83,7 @@ i:hover {
     margin: auto;
   margin-top: 30px;
     width: 80%;
-    height: 100vh;
+    height: 90vh;
     background-color: #F0F0F8;
     display: flex;
     justify-content: space-between;
@@ -120,4 +120,233 @@ button:hover {
 .hero-img{
     width: 40%;
 
+}
+
+/* band-iocon section */
+.band-icon{
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 30px;
+display: flex;
+justify-content: space-between;
+
+}
+.first-show{
+    width: 50%;
+    padding-left: 20px;
+
+}
+.first-show h1{
+  font-size: 40px;
+color: rgb(68, 68, 134);
+}
+.first-show p{
+    padding-top: 20px;
+ font-size: 20px;
+ color: cadetblue;
+
+}
+.second-show{
+    width: 50%;
+    padding-left: 20px;
+}
+.second-show div {
+    display: inline-block;
+    padding: 20px 20px;
+
+ }
+.second-show div img{
+   width: 100px;
+}
+
+/* about-section */
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 30px;
+
+}
+.about-img{
+    width: 50%;
+}
+.about-contant{
+    width: 50%;
+}
+
+/* about-two */
+.about-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 30px;
+
+}
+.about-two .about-img{
+    width: 40%;
+}
+.about-two .about-img img {
+    width: 450px;
+}
+.about-two .about-contant{
+    width: 50%;
+}
+.about-two .about-choose-content {
+   padding-top: 50px;
+}
+.about-two .about-choose-content div{
+    display: inline-block;
+ width: 250px;
+ margin-left: 20px;
+}
+.about-two .about-choose-content div h1{
+    font-size:20px ;
+    color: #1e1f20;
+}
+
+
+/* .testimonial-card */
+
+.testimonial-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    height: 80vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin:auto ;
+    
+}
+
+.user-image {
+    
+    height: 70vh;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    max-width: 500px;
+    text-align: center;
+}
+
+.stars {
+    color: #ffcc00;
+    font-size: 20px;
+}
+
+.testimonial-text {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+}
+
+.user-role {
+    font-size: 14px;
+    color: #777;
+}
+
+/* footer */
+
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #EFF7FA;
+    
+}
+
+footer .col1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1.1; /* Allow columns to grow equally */
+    min-width: 400px; /* Minimum width for responsiveness */
+    padding-right: 20px;
+}
+footer .col1 button {
+    background-color: #b3b3ff;
+}
+footer .col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1; /* Allow columns to grow equally */
+    min-width: 300px; /* Minimum width for responsiveness */
+    padding-right: 30px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+footer .col-install .row img {
+    border: 1px solid #088178;
+    border-radius: 4px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+footer .col-install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-weight: 900;
 }
